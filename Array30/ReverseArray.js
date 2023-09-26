@@ -36,3 +36,7 @@
  var myArray =[1,2,3,4,5]
  ReverseArray(myArray);
  console.log(myArray);
+
+
+ //Python (Revese)
+
