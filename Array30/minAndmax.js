@@ -44,3 +44,15 @@
 const number =[2,6,7,8,3,2,1];
 const min =Math.min(...number)
 console.log(min)
+
+
+
+
+
+
+
+
+
+
+
+
