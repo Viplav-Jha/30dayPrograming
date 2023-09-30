@@ -7,7 +7,7 @@ function threeLargest(arr) {
       thirdLargest = secondLargest;
       secondLargest = largest;
       largest = arr[i];
-    } else if (arr[i] > secondLargest && arr[i] !== largest) {
+    } else if (arr[i] > secondLargest && arr[i] < largest) {
       thirdLargest = secondLargest;
       secondLargest = arr[i];
     } else if (
