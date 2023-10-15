@@ -3,8 +3,6 @@
 
 // Input: {“apple”, “ape”, “april”}
 // Output: “ap”
-
-
 function commonPrefix(strings) {
     if (!strings || strings.length === 0) {
         return "";
@@ -28,7 +26,7 @@ function commonPrefix(strings) {
     return common.join("");
 }
 
-// Example usage:
+
 const input1 = ["geeksforgeeks", "geeks", "geek", "geezer"];
 const output1 = commonPrefix(input1);
 console.log(output1); // Output: "gee"
