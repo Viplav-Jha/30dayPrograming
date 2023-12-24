@@ -1,18 +1,18 @@
-// const arr = [1,1,1,2,2,3]
-// output=1
+function mostOccurence(arr,k){
+ let newArr =[];
+ let n= arr.length;
+  for(let i=0;i<n;i++){
+    const element=arr[i];
+    const occurence= arr.filter((el)=>el===element).length
 
-function frequenceArray(arr){
-    let n= arr.length;
-    let newArr =[];
-     for(let i=0;i<n-1;i++){
-        if(arr.indexOf(arr[i] !==i) && newArr.indexOf(arr[i] ===-1)){
-            newArr.push(arr[i]);
-            
-        }
-     }
-     return new Set(newArr)
+    if(occurence ===k && newArr.indexOf(element) ===-1){
+        newArr.push(element)
+    }
+  }
+  return newArr
 }
 
-const input =  [1,1,1,2,2,3]
-const result=  frequenceArray(input)
+const input =[1,1,1,2,2,3]
+const k=3;
+const result = mostOccurence(input,k)
 console.log(result)
