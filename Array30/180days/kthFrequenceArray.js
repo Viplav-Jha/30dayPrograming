@@ -13,6 +13,6 @@ function mostOccurence(arr,k){
 }
 
 const input =[1,1,1,2,2,3]
-const k=3;
-const result = mostOccurence(input,k)
+const k=3;nce(input,k)
 console.log(result)
+const result = mostOccure
