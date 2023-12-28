@@ -9,5 +9,5 @@ function reverseArray(arr) {
 }
 
 const input = [5, 3, 2, 4, 0];
-const output = reverseArray(input); // Create a copy to avoid modifying the original array
+const output = reverseArray(input); 
 console.log(output);
