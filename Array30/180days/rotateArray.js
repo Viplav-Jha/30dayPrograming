@@ -12,7 +12,7 @@ function rotateArray(arr, k) {
   return arr;
 }
 
-const input = [1, 2, 3, 4, 5, 6, 7];
+const input = [1, 2, 3, 4, 5, 6, 7,9];
 const steps = 3;
 const output = rotateArray(input, steps);
 console.log(input);
