@@ -1,11 +1,10 @@
-function reverseString(str){
-  
-  return str.split('').reverse().join("")
+function reverseString(str) {
+  return str.split("").reverse().join("");
 }
 
-const input = "Hello World!!"
-const output =reverseString(input);
-console.log(output)
+const input = "Hello World!!";
+const output = reverseString(input);
+console.log(output);
 
 // function reverseString(str){
 //      let reverseStr = '';
@@ -14,7 +13,7 @@ console.log(output)
 //      }
 //      return reverseStr
 //   }
-  
+
 //   const input = "My name is viplav"
 //   const output =reverseString(input);
 //   console.log(output)
