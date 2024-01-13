@@ -17,10 +17,8 @@ function longestWord(sentence) {
         longest = cleanWord;
       }
     }
-  
-    return longest;
+   return longest;
   }
-  
   // Test cases
   console.log(longestWord("This is an example sentence")); // Should output "example"
   console.log(longestWord("Programming is fun")); // Should output "Programming"
