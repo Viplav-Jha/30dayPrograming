@@ -19,8 +19,8 @@ function longestWord(sentence) {
     }
    return longest;
   }
-  // Test cases
-  console.log(longestWord("This is an example sentence")); // Should output "example"
-  console.log(longestWord("Programming is fun")); // Should output "Programming"
-  console.log(longestWord("Hello world")); // Should output "world"
+  // Test cases 
+  console.log(longestWord("This is an example sentence"));
+  console.log(longestWord("Programming is fun"));
+  console.log(longestWord("Hello world"));
   
