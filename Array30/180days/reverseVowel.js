@@ -3,8 +3,7 @@ function reverseVowels(str) {
   const strArray = str.split("");
   let left = 0;
   let right = str.length - 1;
-
-  while (left < right) {
+ while (left < right) {
     while (left < right && !vowels.has(strArray[left])) {
       left++;
     }
@@ -12,8 +11,7 @@ function reverseVowels(str) {
     while (left < right && !vowels.has(strArray[right])) {
       right--;
     }
-
-    // Swap the vowels
+ // Swap the vowels
     const temp = strArray[left];
     strArray[left] = strArray[right];
     strArray[right] = temp;
@@ -24,7 +22,6 @@ function reverseVowels(str) {
 
   return strArray.join("");
 }
-
 // Test cases
 console.log(reverseVowels("hello")); // Should output "holle"
 console.log(reverseVowels("leetcode")); // Should output "leotcede"
