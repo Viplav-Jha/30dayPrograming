@@ -17,7 +17,7 @@ function divideAndConqure(str){
     const reversedRight =divideAndConqure(rightHalf);
     console.log("reverseRight",reversedRight)
 
-    return reversedRight +reversedLeft
+    return reversedRight +reversedLeft;
     
 }
 const input = 'hello';
