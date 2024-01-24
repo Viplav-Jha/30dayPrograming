@@ -1,15 +1,10 @@
-function arrayRotation(arr) {
-       const n = arr.length;
-       const new_Array = [];
-     
-       for (let i = n - 1; i >= 0; i--) {
-         new_Array.push(arr[i]);
-       }
-     
-       return new_Array;
-     }
-     
-     const input = [2, 3, 4, 5, 6, 7];
-     const output = arrayRotation(input);
-     console.log(output);
-     
+function arryRotaion(arr,k){
+  const n= arr.length;
+  const rotateIndex=k%n;
+return arr.slice(-rotateIndex).concat(arr.slice(0,rotateIndex))
+}
+
+const input =[1,3,4,5,6,7]
+const k=3
+const output =arryRotaion(input,k)
+console.log(output)
