@@ -11,4 +11,4 @@ function findMissingNumbers(arr) {
 
 const input = [1, 3, 4, 5, 7, 9, 11, 13];
 const missingNumbers = findMissingNumbers(input);
-console.log("Missing numbers:", missingNumbers);
+console.log("Missing-numbers:", missingNumbers);
